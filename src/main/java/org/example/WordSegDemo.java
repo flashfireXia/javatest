@@ -18,5 +18,9 @@ public class WordSegDemo {
         System.out.println(wordSegList); //得到ArrayList[快手, 总部, 停车场]
         // 然后在词典中搜索wordSegList中每个词对应的固定长度(200)的double型数组,若某个词语搜索不到,则设为默认值长度200各元素为0的数组
         // 得到全部词对应的向量后，将所有向量加个，得到最终长度为200的数组，代表整个word的词向量
+
+        // 编辑距离
+        String s1 = "快手总部";
+        String s2 = "北京快手娱乐中心";
     }
 }
